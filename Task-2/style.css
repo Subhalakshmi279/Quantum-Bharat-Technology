@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    box-shadow: 0px 0px 3px gray;
+    width:60%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10%;
+    height:500px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.slide{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    transition: 20s;
+    border-radius: 10px;
+}
+.nav{
+    text-align: center;
+    margin-top: 15px;
+}
+.nav button{
+    font-size: 20px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+}
